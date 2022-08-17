@@ -387,7 +387,9 @@ public class ConsolaOlimpicos
 		}
 		
 		else
+		{
 			System.out.println("El pais que representa el atleta " + nombre + " es: " + Paisdelatleta);
+		}
 	}
 
 	/**
