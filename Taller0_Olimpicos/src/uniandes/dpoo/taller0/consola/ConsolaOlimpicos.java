@@ -381,15 +381,8 @@ public class ConsolaOlimpicos
 
 		String nombre = input("Por favor ingrese el nombre del atleta que desea consultar");
 		String Paisdelatleta = calculadora.buscarPaisAtleta(nombre);
-		if (Paisdelatleta == null)
-		{
-			System.out.println("No existe un atleta con ese nombre.");
-		}
+		System.out.println("El pais que representa el atleta " + nombre + " es: " + Paisdelatleta);
 		
-		else
-		{
-			System.out.println("El pais que representa el atleta " + nombre + " es: " + Paisdelatleta);
-		}
 	}
 
 	/**
